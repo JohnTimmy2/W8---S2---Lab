@@ -1,0 +1,205 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>StudyHub — Learning Resources</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    html, body { font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif; }
+    /* Subtle grid background for hero */
+    .grid-bg {
+      background-image:
+        radial-gradient(circle at 1px 1px, rgba(255,255,255,0.06) 1px, transparent 1px);
+      background-size: 24px 24px;
+    }
+  </style>
+</head>
+<body class="bg-neutral-950 text-white">
+  <!-- Announcement banner -->
+  <div class="bg-indigo-600/90 text-white">
+    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-2 text-center text-sm">
+      <span class="font-medium">Basis Theory Raises $33MM to Power Agentic Commerce and the Next Era of Merchant Payments.</span>
+    </div>
+  </div>
+
+  <!-- Navbar -->
+  <header class="sticky top-0 z-50 border-b border-neutral-800/60 backdrop-blur supports-[backdrop-filter]:bg-neutral-950/80">
+    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+      <div class="flex h-16 items-center justify-between">
+        <div class="flex items-center gap-3">
+          <div class="h-8 w-8 rounded bg-indigo-600"></div>
+          <span class="text-lg font-semibold tracking-tight">Basis Theory</span>
+        </div>
+        <nav class="hidden md:flex items-center gap-6 text-sm text-neutral-300">
+          <a href="#" class="hover:text-white">Use Cases</a>
+          <a href="#" class="hover:text-white">Solutions</a>
+          <a href="#" class="hover:text-white">Why Basis Theory</a>
+          <a href="#" class="hover:text-white">Pricing</a>
+          <a href="#" class="hover:text-white">Blog</a>
+          <a href="#" class="hover:text-white">Docs</a>
+        </nav>
+        <div class="hidden md:flex items-center gap-3">
+          <a href="#" class="text-sm text-neutral-300 hover:text-white">Login</a>
+          <a href="#" class="inline-flex items-center rounded-md bg-neutral-800 px-3 py-2 text-sm font-medium text-white hover:bg-neutral-700">Get a demo</a>
+        </div>
+        <!-- Mobile menu button -->
+        <button class="md:hidden inline-flex items-center justify-center rounded-md p-2 text-neutral-300 hover:text-white hover:bg-neutral-800" aria-label="Open menu">
+          <svg class="h-6 w-6" fill="none" stroke="currentColor" stroke-width="2">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16"/>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="relative grid-bg">
+    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+      <div class="grid lg:grid-cols-2 gap-10 lg:gap-16 py-16 lg:py-24 items-center">
+        <!-- Left: copy -->
+        <div>
+          <div class="inline-flex items-center gap-2 rounded-full border border-neutral-800 bg-neutral-900 px-3 py-1 text-xs text-neutral-300">
+            <span class="inline-block h-1.5 w-1.5 rounded-full bg-emerald-500"></span>
+            Built to keep customers transacting
+          </div>
+
+          <h1 class="mt-4 text-4xl sm:text-5xl font-extrabold tracking-tight leading-tight">
+            More than a token vault—<span class="text-indigo-400">Basis Theory</span> routes, tokenizes, and optimizes your payments
+          </h1>
+          <p class="mt-4 text-neutral-300 text-lg">
+            Drive conversion, resilience, and retention across every transaction with intelligent routing and secure tokenization.
+          </p>
+
+          <!-- Value props -->
+          <div class="mt-8 grid sm:grid-cols-3 gap-4">
+            <div class="rounded-lg border border-neutral-800 bg-neutral-900/60 p-4">
+              <div class="flex items-center gap-3">
+                <div class="h-8 w-8 rounded-md bg-emerald-500/20 text-emerald-400 flex items-center justify-center">
+                  <!-- Arrow up icon -->
+                  <svg class="h-5 w-5" fill="none" stroke="currentColor" stroke-width="2">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M5 10l7-7m0 0v6m0-6H6"/>
+                  </svg>
+                </div>
+                <span class="font-semibold">Boost authorization rates</span>
+              </div>
+            </div>
+            <div class="rounded-lg border border-neutral-800 bg-neutral-900/60 p-4">
+              <div class="flex items-center gap-3">
+                <div class="h-8 w-8 rounded-md bg-sky-500/20 text-sky-400 flex items-center justify-center">
+                  <!-- Shield icon -->
+                  <svg class="h-5 w-5" fill="none" stroke="currentColor" stroke-width="2">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M12 5l7 4v5c0 4-7 6-7 6s-7-2-7-6V9l7-4z"/>
+                  </svg>
+                </div>
+                <span class="font-semibold">Reduce churn</span>
+              </div>
+            </div>
+            <div class="rounded-lg border border-neutral-800 bg-neutral-900/60 p-4">
+              <div class="flex items-center gap-3">
+                <div class="h-8 w-8 rounded-md bg-indigo-500/20 text-indigo-400 flex items-center justify-center">
+                  <!-- Route icon -->
+                  <svg class="h-5 w-5" fill="none" stroke="currentColor" stroke-width="2">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M4 7h6m0 0l3-3m-3 3l3 3M20 17h-6m0 0l-3 3m3-3l-3-3"/>
+                  </svg>
+                </div>
+                <span class="font-semibold">Route to any PSP</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- CTAs -->
+          <div class="mt-8 flex flex-wrap items-center gap-4">
+            <a href="#" class="inline-flex items-center rounded-md bg-indigo-600 px-5 py-3 text-sm font-semibold text-white hover:bg-indigo-500">
+              Request a demo
+            </a>
+            <a href="#" class="inline-flex items-center rounded-md border border-neutral-700 bg-neutral-900 px-5 py-3 text-sm font-semibold text-white hover:bg-neutral-800">
+              Start implementing
+            </a>
+          </div>
+        </div>
+
+        <!-- Right: card + logos cluster -->
+        <div class="relative">
+          <!-- Digital card -->
+          <div class="rounded-2xl border border-neutral-800 bg-neutral-900/60 p-6 shadow-[0_0_60px_-15px_rgba(99,102,241,0.35)]">
+            <div class="flex items-center justify-between">
+              <div>
+                <p class="text-sm text-neutral-400">Virtual card</p>
+                <p class="mt-1 text-xl font-semibold tracking-wide">•••• 1824</p>
+              </div>
+              <div class="rounded-full bg-indigo-600/30 px-3 py-1 text-xs text-indigo-200">
+                Tokenized
+              </div>
+            </div>
+            <div class="mt-6 grid grid-cols-2 gap-4">
+              <div class="rounded-lg border border-neutral-800 bg-neutral-950 p-4">
+                <p class="text-xs text-neutral-400">Cardholder</p>
+                <p class="mt-1 text-sm font-medium">A. Merchant</p>
+              </div>
+              <div class="rounded-lg border border-neutral-800 bg-neutral-950 p-4">
+                <p class="text-xs text-neutral-400">Expiry</p>
+                <p class="mt-1 text-sm font-medium">04 / 27</p>
+              </div>
+            </div>
+            <div class="mt-6 rounded-lg border border-neutral-800 bg-neutral-950 p-4">
+              <p class="text-xs text-neutral-400">Routing strategy</p>
+              <div class="mt-2 flex items-center gap-2 text-sm">
+                <span class="inline-flex items-center gap-1 rounded bg-emerald-500/15 px-2 py-1 text-emerald-300">
+                  <span class="h-1.5 w-1.5 rounded-full bg-emerald-400"></span> Smart retry
+                </span>
+                <span class="inline-flex items-center gap-1 rounded bg-sky-500/15 px-2 py-1 text-sky-300">
+                  <span class="h-1.5 w-1.5 rounded-full bg-sky-400"></span> Geo route
+                </span>
+                <span class="inline-flex items-center gap-1 rounded bg-indigo-500/15 px-2 py-1 text-indigo-300">
+                  <span class="h-1.5 w-1.5 rounded-full bg-indigo-400"></span> BIN optimize
+                </span>
+              </div>
+            </div>
+          </div>
+
+          <!-- PSP logos wall -->
+          <div class="mt-6 grid grid-cols-3 sm:grid-cols-4 gap-3">
+            <!-- Simple logo chips (replace with real logos as needed) -->
+            <div class="flex items-center justify-center rounded-lg border border-neutral-800 bg-neutral-900/60 px-3 py-2 text-sm text-neutral-200">stripe</div>
+            <div class="flex items-center justify-center rounded-lg border border-neutral-800 bg-neutral-900/60 px-3 py-2 text-sm text-neutral-200">adyen</div>
+            <div class="flex items-center justify-center rounded-lg border border-neutral-800 bg-neutral-900/60 px-3 py-2 text-sm text-neutral-200">checkout.com</div>
+            <div class="flex items-center justify-center rounded-lg border border-neutral-800 bg-neutral-900/60 px-3 py-2 text-sm text-neutral-200">worldpay</div>
+            <div class="flex items-center justify-center rounded-lg border border-neutral-800 bg-neutral-900/60 px-3 py-2 text-sm text-neutral-200">CHASE</div>
+            <div class="flex items-center justify-center rounded-lg border border-neutral-800 bg-neutral-900/60 px-3 py-2 text-sm text-neutral-200">local</div>
+            <div class="flex items-center justify-center rounded-lg border border-neutral-800 bg-neutral-900/60 px-3 py-2 text-sm text-neutral-200">VISA</div>
+            <div class="flex items-center justify-center rounded-lg border border-neutral-800 bg-neutral-900/60 px-3 py-2 text-sm text-neutral-200">mastercard</div>
+            <div class="flex items-center justify-center rounded-lg border border-neutral-800 bg-neutral-900/60 px-3 py-2 text-sm text-neutral-200">Amex</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="mt-10 bg-black">
+    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-12">
+      <p class="text-neutral-400 text-sm">Innovative merchants work with the Basis Theory Payment Vault</p>
+      <div class="mt-6 grid grid-cols-2 sm:grid-cols-4 gap-4">
+        <div class="flex items-center justify-center rounded-lg border border-neutral-800 bg-neutral-900/60 px-4 py-3 text-neutral-200">Pinterest</div>
+        <div class="flex items-center justify-center rounded-lg border border-neutral-800 bg-neutral-900/60 px-4 py-3 text-neutral-200">MoneyGram</div>
+        <div class="flex items-center justify-center rounded-lg border border-neutral-800 bg-neutral-900/60 px-4 py-3 text-neutral-200">Orum</div>
+        <div class="flex items-center justify-center rounded-lg border border-neutral-800 bg-neutral-900/60 px-4 py-3 text-neutral-200">Payabli</div>
+      </div>
+
+      <div class="mt-10 flex flex-wrap items-center justify-between gap-4 border-t border-neutral-800 pt-6">
+        <p class="text-xs text-neutral-500">© 2025 Basis Theory Replica</p>
+        <div class="flex items-center gap-6 text-xs text-neutral-400">
+          <a href="#" class="hover:text-white">Privacy</a>
+          <a href="#" class="hover:text-white">Terms</a>
+          <a href="#" class="hover:text-white">Security</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
